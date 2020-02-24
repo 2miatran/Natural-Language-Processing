@@ -8,7 +8,8 @@ I used 2 models: BERT and ULMFiT, but there are others to try out (XLM, ALBERT, 
 - Accuracy for BERT 0.79
 - Accuracy for ULMFiT 0.73
 Note that I did not do vigorous fine-tuning. 
-Some of the ideas to improve the model performance:
+
+## Some of the ideas to improve the model performance:
 - BERT requires input tokens to be truncated to 512 (510 to be specific, excluding CLS and SEP tokens). Most of the clinical notes are more than 1000 words in length (before bert tokenization), and note that the subword tokenization aldo reduced the numbers of input words (as same words can be splitted to subwords). Clinical notes do have a lot of the subword (e.g. ##os, ##es). One way to make use of all data, maybe to 
   + Try classification task using either the first part, middle part, or last part to see which one is best. The intuiation is some time, info at the begining may be more important than the end, or vice versus.   
   + Instead of using one segmentation to work on, segment the text into many parts that maybe allow some overlap, then make classification and average the results. 

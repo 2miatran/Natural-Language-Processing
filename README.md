@@ -5,8 +5,8 @@ This notebook is used for the medical note classification 2019 on Kaggle https:/
 The 1st winning team got 0.76699 of accuracy. The classification I got using BERT model is 0.79. (This was temporiraly tested on a seperate hold out test set since the test set for the competition is not published. I will submit the result and report the result on the competition's test set later.) 
 
 I used 2 models: BERT and ULMFiT, but there are others to try out (XLM, ALBERT, ...)
-Accuracy for BERT 0.79
-Accuracy for ULMFiT 0.73
+- Accuracy for BERT 0.79
+- Accuracy for ULMFiT 0.73
 Note that I did not do vigorous fine-tuning. 
 Some of the ideas to improve the model performance:
 - BERT requires input tokens to be truncated to 512 (510 to be specific, excluding CLS and SEP tokens). Most of the clinical notes are more than 1000 words in length (before bert tokenization), and note that the subword tokenization aldo reduced the numbers of input words (as same words can be splitted to subwords). Clinical notes do have a lot of the subword (e.g. ##os, ##es). One way to make use of all data, maybe to 

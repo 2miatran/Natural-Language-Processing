@@ -20,3 +20,15 @@ Note that I did not do vigorous fine-tuning.
 
 Dependency: fastai library
 The codes is attributable to Maximilien Roberti (BERT) and fastai lecture (ULMFiT)
+These are good source for state of the art NLP self-learning. 
+https://www.kaggle.com/maroberti/fastai-with-transformers-bert-roberta
+https://www.youtube.com/watch?v=MDX_x6rKXAs&t=1377s
+https://www.youtube.com/watch?v=ycXWAtm22-w&t=2709s
+http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/
+https://medium.com/@jonathan_hui/nlp-bert-transformer-7f0ac397f524
+https://towardsdatascience.com/bert-roberta-distilbert-xlnet-which-one-to-use-3d5ab82ba5f8
+And of course the papers:
+https://arxiv.org/abs/1706.03762
+https://arxiv.org/abs/1810.04805
+https://arxiv.org/abs/1906.08237
+

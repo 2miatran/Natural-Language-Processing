@@ -27,6 +27,7 @@ The codes is attributable to Maximilien Roberti (BERT) and fastai lecture (ULMFi
 - http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/
 - https://medium.com/@jonathan_hui/nlp-bert-transformer-7f0ac397f524
 - https://towardsdatascience.com/bert-roberta-distilbert-xlnet-which-one-to-use-3d5ab82ba5f8
+- https://towardsdatascience.com/comparing-transformer-tokenizers-686307856955
 ## And of course the papers:
 - https://arxiv.org/abs/1706.03762
 - https://arxiv.org/abs/1810.04805
